@@ -1,0 +1,36 @@
+<!--Iffan Project Motouran-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login - Motouran</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/loginstyle.css">
+</head>
+
+<body>
+    <div class="login">
+        <h1>Login</h1>
+        <form>
+            <label for="username">Username :</label>
+            <input type="text" id="username" name="username" placeholder="username = iffan">
+            <label for="password">Password :</label>
+            <input type="password" id="password" name="password" placeholder="password = iffanadmin">
+            <input type="button" value="Login" onclick="validate()">
+        </form>
+    </div>
+
+    <script>
+        function validate() {
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+            if (username == "iffan" && password == "iffanadmin") {
+                alert("Login Successfully!");
+                window.location.href = '../index.html';
+            } else {
+                alert("Login Failed (Wrong Username Or Password)");
+            }
+        }
+    </script>
+</body>
+
+</html>

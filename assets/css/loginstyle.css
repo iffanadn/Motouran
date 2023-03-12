@@ -1,0 +1,39 @@
+body {
+    background: url("../img/pnglogo.png");
+}
+
+.login {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    background-color: #282C38;
+    color: white;
+}
+
+input[type="button"] {
+    color: white;
+    background-color: #282C38;
+    width: 40%;
+    margin-left: 30%;
+}
